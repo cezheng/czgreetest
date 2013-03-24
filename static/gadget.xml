@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+        <ModulePrefs title="czgreetest">
+                <Link rel="event.addapp" href="http://czgreetest.appspot.com/event/add" method="GET" />
+                <Link rel="event.removeapp" href="http://czgreetest.appspot.com/event/remove" method="GET" />
+                <Link rel="event.suspendapp" href="http://czgreetest.appspot.com/event/suspend" method="GET" />
+                <Link rel="event.restartapp" href="http://czgreetest.appspot.com/event/restart" method="GET" />
+                <Link rel="gree.join_community" href="http://czgreetest.appspot.com/event/join_community" method="GET" />
+                <Link rel="gree.leave_community" href="http://czgreetest.appspot.com/event/leave_community" method="GET" />
+        </ModulePrefs>
+        <Content view="touch" type="url" href="http://czgreetest.appspot.com" />
+</Module>
